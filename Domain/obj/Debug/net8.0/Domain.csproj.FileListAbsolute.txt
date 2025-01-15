@@ -1,0 +1,13 @@
+E:\C#\CodeChallenge\Domain\bin\Debug\net8.0\Domain.deps.json
+E:\C#\CodeChallenge\Domain\bin\Debug\net8.0\Domain.dll
+E:\C#\CodeChallenge\Domain\bin\Debug\net8.0\Domain.pdb
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\Domain.dll
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\refint\Domain.dll
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\Domain.pdb
+E:\C#\CodeChallenge\Domain\obj\Debug\net8.0\ref\Domain.dll

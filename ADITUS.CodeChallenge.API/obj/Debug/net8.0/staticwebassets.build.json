@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "CWH+GFlOaE79pxfqucrJMRCgjSC0M9+sRTUUgJpf+ug=",
+  "Source": "ADITUS.CodeChallenge.API",
+  "BasePath": "_content/ADITUS.CodeChallenge.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
