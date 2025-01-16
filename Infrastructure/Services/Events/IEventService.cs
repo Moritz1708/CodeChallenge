@@ -1,4 +1,4 @@
-using Domain.Entities;
+
 
 namespace Infrastructure.Services.Events;
 

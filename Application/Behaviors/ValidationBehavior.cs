@@ -1,8 +1,4 @@
-﻿using Domain.CQRS;
-using FluentValidation;
-using MediatR;
-
-namespace Application.Behaviors;
+﻿namespace Application.Behaviors;
 
 public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TRequest>> validators) 
     : IPipelineBehavior<TRequest, TResponse> 

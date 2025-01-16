@@ -1,9 +1,4 @@
-﻿using Application.Models.Dtos;
-using AutoMapper;
-using Domain.CQRS;
-using Infrastructure.Services.Events;
-
-namespace Application.Feature.Events.Queries.GetEventsById;
+﻿namespace Application.Feature.Events.Queries.GetEventsById;
 
 public class GetEventsByIdQueryHandler(IEventService eventService, IMapper mapper) 
     : IQueryHandler<GetEventByIdQuery, GetEventByIdQueryResult>

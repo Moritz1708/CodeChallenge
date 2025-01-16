@@ -1,11 +1,4 @@
-
-
-using Domain.Entities;
-using Infrastructure.Services.Events;
-
 namespace Application.Services.Events;
-
-
   public class EventService : IEventService
   {
     private readonly IList<Event> _events;
@@ -64,7 +57,7 @@ namespace Application.Services.Events;
 
     public Task<Event> GetEvent(Guid id)
     {
-      var @event = _events.FirstOrDefault(e => e.Id == id);
+      var @event = _events.FirstOrDefault(e => e.Id == id) ?? throw new EventNotFoundException($"Event not found with ID: {id}");
       return Task.FromResult(@event);
     }
 

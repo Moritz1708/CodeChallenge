@@ -1,12 +1,4 @@
-﻿using System.Reflection;
-using Application.Behaviors;
-using Application.Services.Events;
-using Application.Services.Statistic;
-using Infrastructure.Services.Events;
-using Infrastructure.Services.Statistic;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace Application;
+﻿namespace Application;
 
 public static class DependencyInjection
 {
@@ -14,14 +6,16 @@ public static class DependencyInjection
     {
         services.AddSingleton<IEventService, EventService>();
         services.AddScoped<IStatisticService, StatisticService>();
+        services.AddScoped<IHardwareService, HardwareService>();
         
         services.AddMediatR(x =>
         {
             x.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly());
             x.AddOpenBehavior(typeof(ValidationBehavior<,>));
             x.AddOpenBehavior(typeof(LoggingBehavior<,>));
-        });
-        
+        }); 
+        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
+        services.AddExceptionHandler<CustomExceptionHandler>();
     }
 }

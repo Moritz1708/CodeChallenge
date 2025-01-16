@@ -1,6 +1,4 @@
-﻿using MediatR;
-
-namespace Domain.CQRS;
+﻿namespace Domain.CQRS;
 
 public interface IQueryHandler<in TQuery, TResponse>
     : IRequestHandler<TQuery, TResponse>

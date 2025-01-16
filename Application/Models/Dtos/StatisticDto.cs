@@ -1,23 +1,22 @@
-﻿using System.Text.Json.Serialization;
-
+﻿using JsonIgnore = System.Text.Json.Serialization;
 namespace Application.Models.Dtos;
 
 
 public record StatisticDto
 {
-    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    [JsonIgnore.JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? Attendees { get; init; }
-    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    [JsonIgnore.JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? Invites { get; init; }
-    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    [JsonIgnore.JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? Visits { get; init; }
-    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    [JsonIgnore.JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? VirtualRooms { get; init; }
-    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    [JsonIgnore.JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? VisitorsCount { get; init; }
-    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    [JsonIgnore.JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? ExhibitorsCount { get; init; }
-    [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+    [JsonIgnore.JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? BoothsCount { get; init; }
     
     public StatisticDto(

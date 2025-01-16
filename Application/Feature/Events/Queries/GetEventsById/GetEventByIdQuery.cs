@@ -1,7 +1,4 @@
-﻿using Application.Models.Dtos;
-using Domain.CQRS;
-
-namespace Application.Feature.Events.Queries.GetEventsById;
+﻿namespace Application.Feature.Events.Queries.GetEventsById;
 
 public record GetEventByIdQuery(Guid Id) : IQuery<GetEventByIdQueryResult>;
 

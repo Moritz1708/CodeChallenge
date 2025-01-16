@@ -1,0 +1,13 @@
+﻿global using Application.Feature.Events.Queries.GetEvents;
+global using Application.Feature.Events.Queries.GetEventsById;
+global using Application.Feature.Statistic.Queries.GetStatisticByEvent;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using Application.Feature.Hardware.Commands.CreateHardwareReservation;
+global using Application.Models.Dtos;
+global using Domain.Entities;
+global using System.Text.Json.Serialization;
+global using ADITUS.CodeChallenge.API.Configuration;
+global using Microsoft.Extensions.Options;
+global using ADITUS.CodeChallenge.API;
+global using Application;

@@ -1,11 +1,3 @@
-
-using Application.Feature.Events.Queries.GetEvents;
-using Application.Feature.Events.Queries.GetEventsById;
-using Application.Feature.Statistic.Queries.GetStatisticByEvent;
-
-using MediatR;
-using Microsoft.AspNetCore.Mvc;
-
 namespace ADITUS.CodeChallenge.API
 {
   [Route("events")]

@@ -1,8 +1,4 @@
-﻿
-using AutoMapper;
-using Domain.Entities;
-
-namespace Application.Mapping;
+﻿namespace Application.Mapping;
 
 public class EventMapping : Profile
 {

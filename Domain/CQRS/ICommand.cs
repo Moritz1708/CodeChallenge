@@ -1,6 +1,4 @@
-﻿using MediatR;
-
-namespace Domain.CQRS;
+﻿namespace Domain.CQRS;
 
 public interface ICommand : ICommand<Unit>
 { }
